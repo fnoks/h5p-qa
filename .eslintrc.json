@@ -20,6 +20,11 @@
     "brace-style": ["error", "stroustrup"],
     "keyword-spacing": ["error", {"after": true}],
     "space-before-blocks": "error",
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
     "no-extra-boolean-cast": "off"
   }
 }
