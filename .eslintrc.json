@@ -4,7 +4,9 @@
     "H5PIntegration": true,
     "H5PEditor": true,
     "ns": true,
-    "EJS": true
+    "EJS": true,
+    "CKEDITOR": true,
+    "Darkroom": true
   },
   "env": {
     "browser": true
@@ -25,6 +27,7 @@
       "named": "never",
       "asyncArrow": "always"
     }],
-    "no-extra-boolean-cast": "off"
+    "no-extra-boolean-cast": "off",
+    "no-console": ["error", {"allow": ["warn", "error"]}]
   }
 }
